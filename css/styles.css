@@ -208,10 +208,8 @@ ol {
 
 /* ____________________________________about____________________________________ */
 .about {
-    margin-top: 38px;
-    margin-bottom: 37px;
-    padding-top: 56px;
-    padding-bottom: 57px;
+    margin-top: var(--margin-94);
+    margin-bottom: var(--margin-94);
 }
 
 .third-title {
