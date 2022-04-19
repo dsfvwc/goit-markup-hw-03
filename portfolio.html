@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/styles.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -31,6 +31,8 @@
     </header>
     <main class="main-content">
         <div class="conteiner">
+            <section class="filter-section">
+            <div class="conteiner">
             <ul class="list list-filter">
 <li><button type="button" class="cursor filter-link filter-text">Все</button></li>
 <li><button type="button" class="cursor filter-link filter-text">Веб-сайты</button></li>
@@ -38,9 +40,9 @@
 <li><button type="button" class="cursor filter-link filter-text">Дизайн</button></li>
 <li><button type="button" class="cursor filter-link filter-text">Маркетинг</button></li>
             </ul>
-        </div>
+            </div>
+            </section>
         <section>
-        <div class="conteiner">
             <ul class="list list-flex">
                 <li class="img-card"><img width="370" src="./images/portfolio1.jpg" alt="Веб-сайт Технокряк">
                     <h3 class="second-title-portfolio title-card">Технокряк</h3>
@@ -79,16 +81,26 @@
                     <p class="third-title-portfolio">Приложение</p>
                     </li>
             </ul>
-        </div>
-        </section>
+            </section>
+            </div>
     </main>
-    <footer class="footer-color">
-        <div class="conteiner">
-        <a href="https://www.webstudio.kiev.ua/" class="link"><span class="web-logo-color">Web</span><span class="footer-web-studio-color web-studio-color">Studio</span></a>
-        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
-        <a class="header-email-footer link" href="mailto:info@devstudio.com" class="footer-contacts">info@devstudio.com</a>
-        <a class="header-tel-footer link" href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a>
-        </div>
-    </footer>
+        <footer class="footer-color">
+            <div class="conteiner">
+                <section class="footer-logo">
+                    <div class="conteiner">
+                        <a href="https://www.webstudio.kiev.ua/" class="link"><span class="web-logo-color">Web</span><span
+                                class="footer-web-studio-color web-studio-color">Studio</span></a>
+                    </div>
+                </section>
+                <section class="contacts">
+                    <div class="conteiner">
+                        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+                        <a class="header-email-footer link" href="mailto:info@devstudio.com"
+                            class="footer-contacts">info@devstudio.com</a>
+                        <a class="header-tel-footer link" href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a>
+                    </div>
+                </section>
+            </div>
+        </footer>
 </body>
 </html>
