@@ -86,9 +86,6 @@ ol {
     background-color: var(--primary-light-color);
     padding-top: 24px;
     padding-bottom: 25px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
     border: 1px solid #ECECEC;
 }
 
@@ -208,8 +205,8 @@ ol {
 
 /* ____________________________________about____________________________________ */
 .about {
-    margin-top: var(--margin-94);
-    margin-bottom: var(--margin-94);
+    padding-top: var(--margin-94);
+    padding-bottom: var(--margin-94);
 }
 
 .third-title {
@@ -258,6 +255,10 @@ ol {
     margin-right: 0;
 }
 
+.about-us {
+    padding-bottom: var(--margin-94);
+}
+
 .second-title {
     font-weight: 700;
     font-size: 36px;
@@ -276,12 +277,12 @@ ol {
 
 .our-team {
     background-color: var(--background-color-section);
-    margin-top: var(--margin-94);
+    padding-top: var(--margin-94);
+    padding-bottom: var(--margin-94);
 }
 
 .list-our-team {
     display: flex;
-    padding-bottom: var(--margin-94);
 }
 
 .specialist-item {
@@ -320,8 +321,7 @@ ol {
 }
 
 .second-title-padding {
-    padding-top: var(--margin-94);
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -409,7 +409,8 @@ ol {
 
 .main-content .conteiner {
     align-items: center;
-    margin-top: var(--margin-94);
+    padding-top: var(--margin-94);
+    padding-bottom: var(--margin-94);
 }
 
 
@@ -418,11 +419,6 @@ ol {
 .list-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-}
-
-.list-flex:nth-child(3n) {
-    margin-right: 0;
 }
 
 .list-flex:nth-last-child(-n+3) {
@@ -456,10 +452,14 @@ ol {
 
 .img-card {
     background: var(--primary-light-color);
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    margin-right: var(--margin-30);
 }
 
-.img-card:nth-last-child(-n + 3) {
-    margin-bottom: var(--margin-94);
+.img-card:nth-child(3n) {
+    margin-right: 0;
+}
+
+.border {
+    border: 1px solid #EEEEEE;
 }
