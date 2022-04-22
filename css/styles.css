@@ -422,6 +422,20 @@ ol {
     flex-wrap: wrap;
 }
 
+.img-card-border {
+    margin-bottom: 30px;
+    margin-right: var(--margin-30);
+}
+
+.img-card-border:nth-last-child(-n + 3) {
+    margin-bottom: 0px;
+}
+
+.img-card-border:nth-child(3n) {
+    margin-right: 0;
+}
+
+
 .list-flex:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
@@ -444,7 +458,6 @@ ol {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--basic-text-color);
-    width: 322px;
 }
 
 .img-card {
@@ -456,17 +469,4 @@ ol {
 .border {
     border: 1px solid #EEEEEE;
     padding: 20px 24px;
-}
-
-.img-card-border {
-    margin-bottom: 30px;
-    margin-right: var(--margin-30);
-}
-
-.img-card-border:nth-last-child(-n + 3) {
-    margin-bottom: 0px;
-}
-
-.img-card-border:nth-child(3n) {
-    margin-right: 0;
 }
